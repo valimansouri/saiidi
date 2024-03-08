@@ -1,0 +1,57 @@
+.logo_target{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_target {
+    font-size: 1.3rem;
+    color: var(--color-black);
+}
+
+.logo_icon {
+    position: relative;
+    margin-right: .6rem;
+}
+
+.logo_icon:nth-child(1) {
+    width: 2rem ;
+    height: 2rem;
+    background-color: var(--color-black);
+    border-radius: 50%;
+}
+
+.logo_icon_smal_circle {
+    width: 1rem ;
+    height: 1rem;
+    background-color: var(--color-black);
+    border-radius: 50%;
+    position: absolute;
+    right: -.7rem;
+    top: -.7rem;
+}
+
+
+@media only screen and (max-width: 700px){
+    
+    .logo_target {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .logo_icon {
+        margin-right: .5rem;
+    }
+    
+    .logo_icon:nth-child(1) {
+        width: 1.3rem ;
+        height: 1.3rem;
+    }
+    
+    .logo_icon_smal_circle {
+        width: .7rem ;
+        height: .7rem;
+        right: -.5rem;
+        top: -.6rem;
+    }
+}

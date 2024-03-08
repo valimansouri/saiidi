@@ -1,0 +1,25 @@
+.layout {
+    background-color: var(--bckground-gray);
+    min-height: 100vh;
+  }
+  
+  .layout_title_box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .layout_title_box h3{
+    padding: 1rem 0;
+    color: var(--color-black-light);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  @media only screen and (max-width: 700px){
+    .layout_title_box h3{
+        padding: 0;
+        font-size: 1.4rem;
+      }
+}
