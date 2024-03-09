@@ -2,11 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .logo_target {
     font-size: 1.3rem;
     color: var(--color-black);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo_icon {
@@ -15,28 +17,27 @@
 }
 
 .logo_icon:nth-child(1) {
-    width: 2rem ;
-    height: 2rem;
+    width: 2.2rem ;
+    height: 2.2rem;
     background-color: var(--color-black);
     border-radius: 50%;
 }
 
 .logo_icon_smal_circle {
-    width: 1rem ;
-    height: 1rem;
+    width: .7rem ;
+    height: .7rem;
     background-color: var(--color-black);
     border-radius: 50%;
     position: absolute;
-    right: -.7rem;
-    top: -.7rem;
+    right: -.5rem;
+    top: -.5rem;
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 768px){
     
     .logo_target {
         font-size: 1rem;
-        font-family: Arial, Helvetica, sans-serif;
     }
     
     .logo_icon {
@@ -44,8 +45,8 @@
     }
     
     .logo_icon:nth-child(1) {
-        width: 1.3rem ;
-        height: 1.3rem;
+        width: 1.5rem ;
+        height: 1.5rem;
     }
     
     .logo_icon_smal_circle {
@@ -55,3 +56,27 @@
         top: -.6rem;
     }
 }
+
+@media only screen and (max-width: 480px){
+    
+    .logo_target {
+        font-size: .9rem;
+    }
+    
+    .logo_icon {
+        margin-right: .4rem;
+    }
+    
+    .logo_icon:nth-child(1) {
+        width: 1.4rem ;
+        height: 1.4rem;
+    }
+    
+    .logo_icon_smal_circle {
+        width: .5rem ;
+        height: .5rem;
+        right: -.35rem;
+        top: -.35rem;
+    }
+}
+
