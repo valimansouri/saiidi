@@ -52,13 +52,13 @@
     color: var(--color-gray);
     font-size: 1rem;
     font-weight: 400;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .article_main_data_box span:nth-child(7), .article_main_data_box span:nth-child(8) {
     color: var(--color-black);
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .article_footer_target{
